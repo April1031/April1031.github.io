@@ -3,19 +3,33 @@ languageCode = 'zh-cn'
 title = 'As a Metaphor'
 theme = "PaperMod"
 
+# --- 1. 全局参数区 ---
 [params]
     env = "production"
-    # 允许搜索引擎索引（如果你想低调，可以设为 false）
     robotsNoIndex = false 
-    # 界面设置
     defaultTheme = "auto"
     ShowReadingTime = true
-    ShowCodeCopyButtons = true # 方便复制你写的代码
+    ShowCodeCopyButtons = true
 
+    # --- 2. 个人主页设置（必须嵌套在 params 内部） ---
+    [params.profileMode]
+        enabled = true
+        title = "April1031"
+        subtitle = "" 
+        imageUrl = "/avatar1.png" 
+        imageSize = 120
+        imageTitle = "April1031"
+
+        [[params.profileMode.buttons]]
+            name = "Posts"
+            url = "posts"
+
+# --- 3. 导航菜单区（这是独立模块，放在最后） ---
 [[menu.main]]
     name = "Tech"
     url = "/posts"
     weight = 10
+
 [[menu.main]]
     name = "Lifestyle"
     url = "/lifestyle"
