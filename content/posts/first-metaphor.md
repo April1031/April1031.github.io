@@ -10,7 +10,7 @@ description: "My first post on As a Metaphor blog."
 draft: false 
 ---
 
-### ## Hello World
+## Hello World
 
 这是我的博客 **"As a Metaphor"** 的第一篇文章。
 
