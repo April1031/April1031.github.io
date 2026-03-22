@@ -1,0 +1,22 @@
+baseURL = 'https://April1031.github.io/'
+languageCode = 'zh-cn'
+title = 'As a Metaphor'
+theme = "PaperMod"
+
+[params]
+    env = "production"
+    # 允许搜索引擎索引（如果你想低调，可以设为 false）
+    robotsNoIndex = false 
+    # 界面设置
+    defaultTheme = "auto"
+    ShowReadingTime = true
+    ShowCodeCopyButtons = true # 方便复制你写的代码
+
+[[menu.main]]
+    name = "Tech"
+    url = "/posts"
+    weight = 10
+[[menu.main]]
+    name = "Lifestyle"
+    url = "/lifestyle"
+    weight = 20
