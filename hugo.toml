@@ -3,7 +3,13 @@ languageCode = 'zh-cn'
 title = 'As a Metaphor'
 theme = "PaperMod"
 
-# --- 1. 全局参数区 ---
+# --- 1. 全局配置区 ---
+# 自动日期逻辑属于全局设置，建议放在这里
+[frontmatter]
+    date = [":git", "date", "publishDate"]
+    lastmod = [":git", "lastmod", "date", "publishDate"]
+
+# --- 2. 网站参数区 ---
 [params]
     env = "production"
     robotsNoIndex = false 
@@ -11,13 +17,7 @@ theme = "PaperMod"
     ShowReadingTime = true
     ShowCodeCopyButtons = true
 
-# --- 新增：自动日期逻辑 ---
-# 这样 Hugo 会优先认 Git 的提交时间，你不用在 MD 里手写日期
-[frontmatter]
-    date = [":git", "date", "publishDate"]
-    lastmod = [":git", "lastmod", "date", "publishDate"]
-
-    # --- 2. 个人主页设置（必须嵌套在 params 内部） ---
+    # 个人主页设置（必须紧跟在 [params] 之后，不要被其他顶格标签打断）
     [params.profileMode]
         enabled = true
         title = "April1031"
@@ -30,7 +30,7 @@ theme = "PaperMod"
             name = "Posts"
             url = "posts"
 
-# --- 3. 导航菜单区（这是独立模块，放在最后） ---
+# --- 3. 导航菜单区 ---
 [[menu.main]]
     name = "Tech"
     url = "/posts"
