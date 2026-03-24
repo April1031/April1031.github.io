@@ -11,6 +11,12 @@ theme = "PaperMod"
     ShowReadingTime = true
     ShowCodeCopyButtons = true
 
+# --- 新增：自动日期逻辑 ---
+# 这样 Hugo 会优先认 Git 的提交时间，你不用在 MD 里手写日期
+[frontmatter]
+    date = [":git", "date", "publishDate"]
+    lastmod = [":git", "lastmod", "date", "publishDate"]
+
     # --- 2. 个人主页设置（必须嵌套在 params 内部） ---
     [params.profileMode]
         enabled = true
