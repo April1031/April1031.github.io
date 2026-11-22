@@ -5,8 +5,10 @@ theme = "PaperMod"
 
 # --- 1. 全局配置区 ---
 # 自动日期逻辑属于全局设置，建议放在这里
+enableGitInfo = true
+
 [frontmatter]
-    date = [":git", "date", "publishDate"]
+    date = ["date", "publishDate"]
     lastmod = [":git", "lastmod", "date", "publishDate"]
 
 # --- 2. 网站参数区 ---
