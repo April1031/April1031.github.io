@@ -34,11 +34,6 @@ enableGitInfo = true
 
 # --- 3. 导航菜单区 ---
 [[menu.main]]
-    name = "Tech"
-    url = "/posts"
+    name = "Posts"
+    url = "/posts/"
     weight = 10
-
-[[menu.main]]
-    name = "Lifestyle"
-    url = "/lifestyle"
-    weight = 20

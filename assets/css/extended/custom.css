@@ -39,18 +39,8 @@ body {
 /* 行内代码块美化 */
 code {
     background: var(--code-bg);
-    color: #e83e8c; /* 给行内代码一点醒目的颜色 */
+    color: #a9c4df; /* 行内代码颜色 */
     padding: 2px 5px;
     border-radius: 4px;
     font-size: 0.9em;
-}
-
-/* --- 4. 针对双机流/手机发布的 Lifestyle 特殊样式 --- */
-/* 如果你想让生活随笔看起来更轻快 */
-.tag-lifestyle {
-    border: 1px solid #ffcf33;
-    background: #fff9db;
-    color: #856404;
-    border-radius: 99px;
-    padding: 0 10px;
 }
