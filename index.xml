@@ -1,3 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>As a Metaphor</title><link>https://April1031.github.io/</link><description>Recent content on As a Metaphor</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 22 Mar 2026 10:00:00 +0800</lastBuildDate><atom:link href="https://April1031.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>The First Metaphor</title><link>https://April1031.github.io/posts/first-metaphor/</link><pubDate>Sun, 22 Mar 2026 10:00:00 +0800</pubDate><guid>https://April1031.github.io/posts/first-metaphor/</guid><description>My first post on As a Metaphor blog.</description></item><item><title>手机随笔模板</title><link>https://April1031.github.io/lifestyle/mobile/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://April1031.github.io/lifestyle/mobile/</guid><description>&lt;hr&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>As a Metaphor</title><link>https://April1031.github.io/</link><description>Recent content on As a Metaphor</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 22 Nov 2026 20:29:25 +0800</lastBuildDate><atom:link href="https://April1031.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>The First Metaphor</title><link>https://April1031.github.io/posts/first-metaphor/</link><pubDate>Sun, 22 Mar 2026 10:00:00 +0800</pubDate><guid>https://April1031.github.io/posts/first-metaphor/</guid><description>&lt;h2 id="hello-world"&gt;Hello World&lt;/h2&gt;
+&lt;p&gt;这是我的博客 &lt;strong&gt;&amp;ldquo;As a Metaphor&amp;rdquo;&lt;/strong&gt; 的第一篇文章。&lt;/p&gt;
+&lt;p&gt;作为一个程序员，我正在通过 &lt;strong&gt;Hugo + GitHub Actions&lt;/strong&gt; 搭建我的博客。&lt;/p&gt;
+&lt;h4 id="-今日进度-check"&gt;☐ 今日进度 Check：&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; 域名 &lt;code&gt;April1031.github.io&lt;/code&gt; 已绑定。&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; &lt;code&gt;PaperMod&lt;/code&gt; 主题集成成功。&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; 自动化部署流水线已跑通。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="update"&gt;Update&lt;/h4&gt;
+&lt;p&gt;以上部分都是今年三月的时候，AI提供的模版文章，当时觉得粗糙尴尬，模式化的乐观正经，心想总会有机会改掉，但生活如此，自己只顾着懒惰向前滚动爬行，八个月间，我再也没有更新过这个博客项目里的代码。转行三个月，我也已经三个多月没写过正经的代码，不再能够大段地感叹哀嚎，今天终于清理整顿，调整了博客的框架。因为对未来自己的自律性与道德缺乏信心，所以决定只是陈述事实，言尽于此，这就是我的博客的第一篇文章。&lt;/p&gt;
+&lt;hr&gt;</description></item><item><title>手机随笔模板</title><link>https://April1031.github.io/lifestyle/mobile/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://April1031.github.io/lifestyle/mobile/</guid><description>&lt;hr&gt;
 &lt;h3 id="2026-03-24-每日一春秋笔法"&gt;2026-03-24 每日一春秋笔法&lt;/h3&gt;
 &lt;p&gt;抹茶摄入过量，亢奋到几乎回到六岁的心智，拥有了肤浅的雀跃和表达欲，很多时候只想用春秋笔法重述每一个故事。&lt;/p&gt;</description></item></channel></rss>
